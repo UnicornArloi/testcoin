@@ -3,6 +3,11 @@ name = "solana-tax-token"
 version = "0.1.0"
 edition = "2021"
 
+[workspace]
+members = [
+    "programs/test-coin"
+]
+
 [profile.dev]
 overflow-checks = true
 
