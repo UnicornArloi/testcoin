@@ -3,6 +3,9 @@ name = "solana-tax-token"
 version = "0.1.0"
 edition = "2021"
 
+[profile.dev]
+overflow-checks = true
+
 [profile.release]
 overflow-checks = true
 lto = true
