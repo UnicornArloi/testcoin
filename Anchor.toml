@@ -7,3 +7,8 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run anchor test"
+
+[profile.release]
+overflow-checks = true
+lto = true
+codegen-units = 1
