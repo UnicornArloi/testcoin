@@ -1,0 +1,9 @@
+[toolchain]
+anchor = "0.30"
+
+[provider]
+cluster = "testnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run anchor test"
